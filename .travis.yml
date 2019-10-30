@@ -8,5 +8,8 @@ node_js:
 script:
   - npm run test:coveralls
 
+after_script:
+  - npm run cover
+
 notifications:
   email: false
