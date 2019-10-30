@@ -7,14 +7,10 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.7",
-    "jest": "^24.9.0",
-    "mocha-lcov-reporter": "^1.3.0"
+    "jest": "^24.9.0"
   },
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage",
-    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "cover": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "test:coverage": "jest --coverage"
   }
 }
