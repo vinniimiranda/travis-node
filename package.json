@@ -7,9 +7,12 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.7",
     "jest": "^24.9.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   }
 }
