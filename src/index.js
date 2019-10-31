@@ -1,1 +1,2 @@
-console.log('cceee')
+console
+  .log('cccceee')
