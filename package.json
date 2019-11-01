@@ -26,7 +26,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint-fix",
+      "yarn test",
+      "git add"
+    ]
   }
 }
